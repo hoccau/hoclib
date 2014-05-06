@@ -1,0 +1,24 @@
+#N canvas 465 349 450 300 10;
+#X obj 10 78 hoc.play~ samples/bigbuckbunny.wav;
+#X obj 11 59 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 11 34 loadbang;
+#X obj 233 93 loadbang;
+#X msg 233 113 \; pd dsp 1;
+#X obj 11 170 dac~;
+#X floatatom 136 116 5 0 0 0 - - -;
+#X floatatom 74 114 5 0 0 0 - - -;
+#X obj 13 133 hoc.lowpassres~ 300 2;
+#X text 148 150 inlet1 : signal;
+#X text 148 160 inlet2/arg1 : frequence;
+#X text 148 170 inlet3/arg2 : resonance;
+#X text 8 5 simple lowpass resonnant;
+#X connect 0 0 8 0;
+#X connect 0 1 1 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 6 0 8 2;
+#X connect 7 0 8 1;
+#X connect 8 0 5 0;
+#X connect 8 0 5 1;

@@ -1,0 +1,18 @@
+#N canvas 1 317 450 300 10;
+#X obj 50 67 bng 15 250 50 0 empty empty déclenche-moi! 17 7 0 10
+-262144 -1 -1;
+#X obj 50 88 hoc.play~ samples/bigbuckbunny.wav;
+#X msg 292 57 \; pd dsp 1;
+#X obj 292 36 loadbang;
+#X obj 51 172 dac~;
+#X floatatom 189 146 5 0 0 0 - - -;
+#X obj 189 165 / 100;
+#X obj 50 125 hoc.chorus~;
+#X connect 0 0 1 0;
+#X connect 1 0 7 0;
+#X connect 1 1 0 0;
+#X connect 3 0 2 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 1;
+#X connect 7 0 4 0;
+#X connect 7 0 4 1;

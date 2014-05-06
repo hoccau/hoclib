@@ -1,0 +1,19 @@
+#N canvas 1 87 450 300 10;
+#X obj 10 46 bng 15 250 50 0 empty empty déclenche-moi! 17 7 0 10
+-262144 -1 -1;
+#X msg 250 48 \; pd dsp 1;
+#X obj 250 27 loadbang;
+#X obj 10 66 hoc.play~ samples/bigbuckbunny.wav;
+#X obj 10 26 loadbang;
+#X obj 8 139 dac~;
+#X floatatom 137 106 5 0 0 0 time_ - -;
+#X obj 9 105 hoc.shuffling~;
+#X text 8 4 Shaker - inspiré par la documentation G07;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 7 0;
+#X connect 3 1 0 0;
+#X connect 4 0 0 0;
+#X connect 6 0 7 1;
+#X connect 7 0 5 0;
+#X connect 7 1 5 1;

@@ -1,0 +1,47 @@
+#N canvas 516 256 450 300 10;
+#X obj 68 190 hoc.fm~;
+#X obj 67 261 outlet~;
+#X obj 107 119 hsl 70 10 10 2000 0 0 empty empty frequency 0 5 1 10
+-204786 -4034 -13381 728 1;
+#X obj 107 134 hsl 70 10 1 12 0 0 empty empty int_ratio 0 5 1 10 -204786
+-4034 -13381 627 1;
+#X obj 185 119 hsl 70 10 0 1000 0 0 empty empty mod_depth 0 5 1 10
+-204786 -4034 -13381 2760 1;
+#X obj 107 145 hsl 70 10 0 1 0 0 empty empty tune_ratio 0 5 1 10 -204786
+-4034 -13381 2298 1;
+#X obj 155 211 i, f 5;
+#X obj 155 246 +;
+#X obj 200 212 t b f;
+#X obj 185 145 hsl 70 10 0 1 0 0 empty empty feedback 0 5 1 10 -204786
+-4034 -13381 2070 1;
+#X obj 185 7 loadbang;
+#X msg 226 76 0.3;
+#X msg 162 62 2;
+#X msg 164 82 0.333;
+#X msg 235 50 400;
+#X msg 174 40 220;
+#X obj 92 41 inlet;
+#X obj 85 72 mtof;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 3 0 6 0;
+#X connect 4 0 0 2;
+#X connect 5 0 8 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 1;
+#X connect 8 0 6 0;
+#X connect 8 1 7 1;
+#X connect 9 0 0 3;
+#X connect 10 0 11 0;
+#X connect 10 0 15 0;
+#X connect 10 0 12 0;
+#X connect 10 0 13 0;
+#X connect 10 0 14 0;
+#X connect 11 0 9 0;
+#X connect 12 0 3 0;
+#X connect 13 0 5 0;
+#X connect 14 0 4 0;
+#X connect 15 0 2 0;
+#X connect 16 0 17 0;
+#X connect 17 0 2 0;
+#X coords 0 -1 1 1 160 60 1 100 100;
