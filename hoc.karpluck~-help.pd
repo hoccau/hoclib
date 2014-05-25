@@ -1,4 +1,4 @@
-#N canvas 187 329 557 339 10;
+#N canvas 184 305 557 339 10;
 #X obj 29 128 hoc.karpluck~ 0.1 0.5 2000;
 #X obj 30 179 dac~;
 #X obj 29 102 pack f f;
