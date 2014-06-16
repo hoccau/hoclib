@@ -1,14 +1,12 @@
+Supprimer les doublons
 Ameliorer le filtre lowpassres
 reverser inverse le sample tous les n milisecondes
 ameliorer chorus ?
 améliorer shuffling
 finir vocoder
 compresseur
-vocodeur
 reverbe(s) : réseaux de retards, pvoc...
 harmoniser... quel modèle..?
-feu DX100...!
 mapping linéaire -> logarithmique, exp, etc. 
 ------------------------------
 
-Un patch dans le style de ArtZoyd avec GUI, couleurs mélisson-like, etc. Mais modulaire (avec fils plutôt que matrice). 
