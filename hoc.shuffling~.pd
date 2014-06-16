@@ -1,5 +1,5 @@
-#N canvas 150 33 986 805 10;
-#X floatatom 786 150 5 0 0 0 env - -, f 5;
+#N canvas 147 29 986 708 10;
+#X floatatom 786 150 5 0 0 0 env - -;
 #N canvas 0 50 450 300 cloud 0;
 #X obj 33 221 t b f;
 #X obj 33 246 del;
@@ -11,9 +11,9 @@
 #X obj 25 88 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 264 96 *;
-#X floatatom 261 135 5 0 0 0 - - -, f 5;
+#X floatatom 261 135 5 0 0 0 - - -;
 #X obj 332 139 / 24000;
-#X floatatom 331 164 5 0 0 0 - - -, f 5;
+#X floatatom 331 164 5 0 0 0 - - -;
 #X obj 152 83 clip 50 1000;
 #X obj 210 117 / 2;
 #X connect 0 0 1 0;
@@ -35,7 +35,7 @@
 #X connect 13 0 2 1;
 #X restore 445 63 pd cloud;
 #X obj 445 84 f;
-#X floatatom 567 104 5 0 0 0 - - -, f 5;
+#X floatatom 567 104 5 0 0 0 - - -;
 #X obj 445 152 pack f f;
 #X obj 395 237 abstractions/retr4shuf~;
 #X obj 445 106 pack f 1;

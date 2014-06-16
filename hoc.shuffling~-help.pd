@@ -1,4 +1,4 @@
-#N canvas 321 353 450 300 10;
+#N canvas 50 408 450 300 10;
 #X obj 88 194 h.output~;
 #X obj 86 125 hoc.shuffling~ 160 0.6 80;
 #X obj 41 56 noise~;
@@ -14,3 +14,4 @@
 #X connect 4 0 1 2;
 #X connect 5 0 1 1;
 #X connect 6 0 1 3;
+#X connect 7 0 1 0;

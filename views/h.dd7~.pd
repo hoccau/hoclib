@@ -1,11 +1,11 @@
-#N canvas 410 239 450 300 10;
+#N canvas 413 369 450 300 10;
 #X obj 101 185 hoc.dd7~;
 #X obj 31 21 inlet~;
 #X obj 50 233 outlet~;
-#X obj 108 120 hsl 70 10 10 2000 0 0 empty empty time 0 5 1 10 -203904
--4160 -16662 0 1;
-#X obj 108 135 hsl 70 10 0 1 0 0 empty empty feedback 0 5 1 10 -203904
--4160 -16662 0 1;
+#X obj 107 116 hsl 70 10 10 2000 0 0 empty empty time 0 5 1 10 -203904
+-4160 -16662 381 1;
+#X obj 107 127 hsl 70 10 0 1 0 0 empty empty feedback 0 5 1 10 -203904
+-4160 -16662 4830 1;
 #X msg 205 113 120;
 #X msg 207 137 0.7;
 #X obj 241 87 loadbang;
@@ -17,4 +17,4 @@
 #X connect 6 0 4 0;
 #X connect 7 0 5 0;
 #X connect 7 0 6 0;
-#X coords 0 -1 1 1 85 50 1 100 100;
+#X coords 0 -1 1 1 85 40 1 100 100;

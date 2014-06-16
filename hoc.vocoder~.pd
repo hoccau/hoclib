@@ -1,4 +1,4 @@
-#N canvas 0 58 1351 714 10;
+#N canvas 0 29 1351 714 10;
 #X obj 523 99 s~ \$0-modulator;
 #X obj 191 497 outlet~;
 #X obj 662 73 s~ \$0-carrier;
@@ -13,14 +13,14 @@
 #X obj 191 476 hipp~ 20;
 #X floatatom 803 228 5 0 0 0 - - -, f 5;
 #X obj 191 456 *~ 1;
+#X obj 227 216 abstractions/hoc.vocoder.voice~ 770;
+#X obj 259 255 abstractions/hoc.vocoder.voice~ 1080;
 #X obj 174 112 abstractions/hoc.vocoder.voice~ 100;
 #X obj 183 134 abstractions/hoc.vocoder.voice~ 200;
 #X obj 195 154 abstractions/hoc.vocoder.voice~ 300;
 #X obj 206 175 abstractions/hoc.vocoder.voice~ 510;
 #X obj 216 196 abstractions/hoc.vocoder.voice~ 630;
-#X obj 227 216 abstractions/hoc.vocoder.voice~ 770;
 #X obj 242 235 abstractions/hoc.vocoder.voice~ 920;
-#X obj 259 255 abstractions/hoc.vocoder.voice~ 1080;
 #X obj 270 277 abstractions/hoc.vocoder.voice~ 1270;
 #X obj 282 297 abstractions/hoc.vocoder.voice~ 1480;
 #X obj 293 318 abstractions/hoc.vocoder.voice~ 1720;
@@ -109,7 +109,6 @@
 #X connect 29 0 13 0;
 #X connect 30 0 13 0;
 #X connect 31 0 13 0;
-#X connect 32 0 13 0;
 #X connect 33 0 13 0;
 #X connect 34 0 13 0;
 #X connect 35 0 13 0;
