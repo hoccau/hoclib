@@ -1,0 +1,35 @@
+#N canvas 698 160 460 327 10;
+#X obj 40 257 outlet;
+#X obj 135 253 outlet;
+#X obj 109 134 hsl 70 10 20 127 0 0 empty empty minimum 0 5 1 10 -228856
+-1 -162280 2579 1;
+#X obj 109 147 hsl 70 10 20 127 0 0 empty empty maximum 0 5 1 10 -228856
+-1 -162280 4192 1;
+#X obj 100 21 loadbang;
+#X msg 156 64 120;
+#X msg 102 60 60;
+#X msg 111 82 85;
+#X obj 40 212 hoc.seq.random;
+#X obj 228 186 /;
+#X obj 228 139 t b f;
+#X msg 228 162 1;
+#X obj 228 119 / 60000;
+#X obj 110 120 hsl 70 10 30 200 0 0 empty empty BPM 0 5 1 10 -228856
+-1 -162280 0 1;
+#X connect 2 0 8 1;
+#X connect 3 0 8 2;
+#X connect 4 0 5 0;
+#X connect 4 0 6 0;
+#X connect 4 0 7 0;
+#X connect 5 0 13 0;
+#X connect 6 0 2 0;
+#X connect 7 0 3 0;
+#X connect 8 0 0 0;
+#X connect 8 1 1 0;
+#X connect 9 0 8 0;
+#X connect 10 0 11 0;
+#X connect 10 1 9 1;
+#X connect 11 0 9 0;
+#X connect 12 0 10 0;
+#X connect 13 0 12 0;
+#X coords 0 327 1 326 85 60 0;

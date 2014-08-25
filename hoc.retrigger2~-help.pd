@@ -1,4 +1,4 @@
-#N canvas 325 424 705 324 10;
+#N canvas 122 106 705 324 10;
 #X obj 115 174 hoc.retrigger2~, f 25;
 #X obj 115 47 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -10,6 +10,8 @@
 #X text 323 142 Changer la vitesse;
 #X text 9 7 Retrigger;
 #X obj 115 20 loadbang;
+#X text 345 57 Basé sur un tableau;
+#X text 345 70 voir hoc.retrigger~ basé sur [delwrite~];
 #X connect 0 0 3 0;
 #X connect 0 0 3 1;
 #X connect 1 0 4 0;
