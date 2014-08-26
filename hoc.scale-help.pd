@@ -1,11 +1,10 @@
-#N canvas 915 464 450 300 10;
-#X floatatom 14 41 5 -10 10 0 - - -;
-#X floatatom 14 83 5 0 0 0 - - -;
-#X text 177 40;
+#N canvas 912 440 450 300 10;
+#X floatatom 14 41 5 -10 10 0 - - -, f 5;
+#X floatatom 14 83 5 0 0 0 - - -, f 5;
 #X text 5 0 outil de mapping (utilisé dans Max) de conversion d'echelles
 ;
 #X text 170 36 arg1->arg2 : echelle en inlet;
 #X text 170 50 arg3->arg4 : echelle en outlet;
 #X obj 14 61 hoc.scale -10 10 0 127;
-#X connect 0 0 6 0;
-#X connect 6 0 1 0;
+#X connect 0 0 5 0;
+#X connect 5 0 1 0;
