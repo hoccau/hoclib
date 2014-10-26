@@ -1,0 +1,18 @@
+#N canvas 550 286 450 300 10;
+#X obj 129 83 delwrite~ \$0-del 3000;
+#X obj 129 63 inlet~;
+#X obj 211 179 line~;
+#X msg 211 156 \$1 20;
+#X obj 165 199 *~ 0.6;
+#X obj 115 173 vd~ \$0-del;
+#X obj 165 223 bp~ 500 0.1;
+#X obj 116 267 outlet~;
+#X obj 84 147 vline~;
+#X connect 1 0 0 0;
+#X connect 2 0 4 1;
+#X connect 3 0 2 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 0;
+#X connect 5 0 7 0;
+#X connect 6 0 0 0;
+#X connect 8 0 5 0;
