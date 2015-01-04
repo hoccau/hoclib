@@ -2,14 +2,6 @@ Supprimer les doublons
 Ameliorer le filtre lowpassres
 reverser inverse le sample tous les n milisecondes
 améliorer shuffling
-finir vocoder
-compresseur
 reverbe(s) : réseaux de retards, pvoc...
-harmoniser... quel modèle..?
-mapping linéaire -> logarithmique, exp, etc.
-
-hoc.midi.seq bug quand on l'ouvre..
-
-hoc.midi.seq bug quand on l'ouvre.... 
-------------------------------
+Un harmoniser... quel modèle..?
 
