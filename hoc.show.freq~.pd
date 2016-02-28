@@ -1,5 +1,5 @@
 #N canvas 0 29 771 248 10;
-#N canvas 0 29 608 388 hanning-table 1;
+#N canvas 0 50 608 388 hanning-table 0;
 #X obj 92 206 phasor~;
 #X obj 92 234 cos~;
 #X obj 30 252 -~;
@@ -70,7 +70,7 @@
 #N canvas 0 50 450 300 (subpatch) 0;
 #X array \$0-response 256 float 0;
 #X coords 0 1 255 0 256 140 1 0 0;
-#X restore 350 30 graph;
+#X restore 351 31 graph;
 #X obj 53 27 inlet~;
 #X connect 3 0 1 0;
-#X coords 0 -1 1 1 255 140 2 350 30;
+#X coords 0 -1 1 1 257 142 2 350 30;

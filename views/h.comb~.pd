@@ -1,8 +1,8 @@
-#N canvas 0 75 238 693 10;
-#X obj 107 112 hsl 70 10 20 1000 0 0 empty empty frequence 0 5 1 10
--203904 -4160 -16662 311 1;
-#X obj 107 123 hsl 70 10 0 1 0 0 empty empty Depth 0 5 1 10 -203904
--4160 -16662 1950 1;
+#N canvas 2 85 238 693 10;
+#X obj 107 113 hsl 70 10 20 1000 0 0 empty empty frequence 0 5 1 10
+-232576 -159808 -45076 211 1;
+#X obj 107 124 hsl 70 10 0 1 0 0 empty empty Depth 0 5 1 10 -232576
+-159808 -45076 3450 1;
 #X obj 64 158 hoc.comb~;
 #X obj 27 79 inlet~;
 #X obj 39 210 outlet~;
@@ -19,4 +19,4 @@
 #X connect 6 0 0 0;
 #X connect 7 0 1 0;
 #X connect 8 0 0 0;
-#X coords 0 -1 1 1 85 35 1 100 100;
+#X coords 0 -1 1 1 85 37 1 100 100;
