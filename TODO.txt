@@ -1,4 +1,4 @@
-Supprimer les doublons
+finir transformer hoc.fluctuation.pd en hoc.random.pd et h.random.pd
 Ameliorer le filtre lowpassres
 reverser inverse le sample tous les n milisecondes
 améliorer shuffling
