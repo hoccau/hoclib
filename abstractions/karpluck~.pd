@@ -1,4 +1,4 @@
-#N canvas 541 348 726 517 10;
+#N canvas 593 234 621 532 10;
 #X obj -38 11 inlet midi_note;
 #X obj 44 99 inlet width;
 #X obj 77 185 inlet decay;
