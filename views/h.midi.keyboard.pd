@@ -1,0 +1,46 @@
+#N canvas 64 287 450 300 10;
+#X obj 104 103 cnv 15 15 40 empty \$0-n60 empty 20 12 0 14 -233017
+-262144 0;
+#X obj 122 103 cnv 15 15 40 empty \$0-n63 empty 20 12 0 14 -228856
+-66577 0;
+#X obj 140 103 cnv 15 15 40 empty \$0-n64 empty 20 12 0 14 -228856
+-66577 0;
+#X obj 158 103 cnv 15 15 40 empty \$0-n65 empty 20 12 0 14 -228856
+-66577 0;
+#X obj 176 103 cnv 15 15 40 empty \$0-n67 empty 20 12 0 14 -228856
+-66577 0;
+#X obj 194 103 cnv 15 15 40 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X obj 212 103 cnv 15 15 40 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X obj 230 103 cnv 15 15 40 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X obj 114 103 cnv 12 12 30 empty \$0-n61 empty 20 12 0 14 -1 -262144
+0;
+#X obj 133 103 cnv 12 12 30 empty \$0-n63 empty 20 12 0 14 -1 -262144
+0;
+#X obj 167 103 cnv 12 12 30 empty \$0-n66 empty 20 12 0 14 -1 -262144
+0;
+#X obj 187 103 cnv 12 12 30 empty empty empty 20 12 0 14 -1 -262144
+0;
+#X obj 204 103 cnv 12 12 30 empty empty empty 20 12 0 14 -1 -262144
+0;
+#X obj 274 72 f;
+#X msg 251 24 bang;
+#X floatatom 290 22 3 0 29 0 - - -, f 3;
+#X floatatom 325 40 3 0 29 0 - - -, f 3;
+#X text 318 22 background;
+#X text 353 41 label-color;
+#X obj 274 97 pack 0 0;
+#X msg 272 212 \; \$0-n60 color \$1 \$2;
+#X obj 298 186 s \$0-n60;
+#X obj 309 143 prepend color;
+#X msg 296 53 4;
+#X connect 13 0 19 0;
+#X connect 14 0 13 0;
+#X connect 15 0 13 1;
+#X connect 16 0 19 1;
+#X connect 19 0 22 0;
+#X connect 22 0 21 0;
+#X connect 23 0 13 1;
+#X coords 0 -1 1 1 150 60 2 100 100;

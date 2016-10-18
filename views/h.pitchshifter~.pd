@@ -1,11 +1,11 @@
-#N canvas 214 147 450 300 10;
-#X obj 63 143 hoc.pitchshifter~;
+#N canvas 211 123 450 300 10;
+#X obj 37 149 hoc.pitchshifter~;
 #X obj 108 116 hsl 95 10 -12 12 0 0 empty empty pitch 0 5 1 10 -232576
 -159808 -45076 4700 1;
 #X obj 183 50 loadbang;
 #X msg 183 72 0;
-#X obj 63 179 outlet~;
-#X obj 63 111 inlet~;
+#X obj 37 185 outlet~;
+#X obj 37 117 inlet~;
 #X obj 274 79 inlet;
 #X connect 0 0 4 0;
 #X connect 1 0 0 1;
