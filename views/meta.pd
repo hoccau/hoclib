@@ -1,4 +1,4 @@
-#N canvas 243 67 914 636 10;
+#N canvas 223 57 914 636 10;
 #X obj 8 62 h.fm~;
 #X text 4 4 Les vues hoclib \, par catégories;
 #X obj 463 58 h.adsr~;
@@ -50,3 +50,4 @@
 #X obj 674 165 h.tape~;
 #X text 613 164 h.loop~;
 #X obj 196 578 h.pan~;
+#X obj 612 87 h.granulator~;
