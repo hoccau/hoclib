@@ -6,4 +6,5 @@ reverser inverse le sample tous les n milisecondes
 améliorer shuffling
 reverbe(s) : réseaux de retards, pvoc...
 Un harmoniser... quel modèle..?
+h.retrigger marche pas
 

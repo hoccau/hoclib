@@ -1,4 +1,4 @@
-#N canvas 2 50 679 217 10;
+#N canvas 0 29 679 217 10;
 #X obj 220 125 table \$0-sample;
 #X obj 13 87 tabplay~ \$0-sample;
 #X obj 153 53 openpanel;
@@ -12,12 +12,13 @@
 #X obj 153 34 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 95 112 outlet;
-#X obj 254 29 symbol \$1;
-#X msg 254 68 read -resize \$1 \$2-sample;
-#X obj 319 28 \$0;
-#X obj 304 -24 loadbang;
-#X obj 254 48 pack s f;
-#X obj 254 9 t b b;
+#X obj 262 44 symbol \$1;
+#X msg 262 83 read -resize \$1 \$2-sample;
+#X obj 327 43 \$0;
+#X obj 261 5 loadbang;
+#X obj 262 63 pack s f;
+#X obj 262 24 t b b;
+#X obj 116 10 inlet file;
 #X connect 1 0 8 0;
 #X connect 1 1 11 0;
 #X connect 2 0 6 0;
@@ -34,4 +35,5 @@
 #X connect 16 0 13 0;
 #X connect 17 0 12 0;
 #X connect 17 1 14 0;
+#X connect 18 0 10 0;
 #X coords 0 -1 1 1 20 30 1 150 20;

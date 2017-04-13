@@ -1,4 +1,4 @@
-#N canvas 306 340 450 300 10;
+#N canvas 300 292 450 300 10;
 #X obj 121 184 line~;
 #X obj 121 162 pack f 30;
 #X obj 196 184 line~;

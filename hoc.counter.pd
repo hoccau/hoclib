@@ -1,4 +1,4 @@
-#N canvas 437 260 405 322 10;
+#N canvas 434 275 405 322 10;
 #X obj 57 14 inlet;
 #X obj 56 276 outlet;
 #X obj 89 111 + 1;
@@ -15,6 +15,8 @@
 #X msg 156 114 infinite;
 #X msg 246 116 finite;
 #X obj 56 164 route list;
+#X obj 66 69 inlet reset;
+#X msg 67 82 0;
 #X connect 0 0 4 0;
 #X connect 2 0 3 1;
 #X connect 3 0 2 0;
@@ -34,3 +36,5 @@
 #X connect 13 0 12 1;
 #X connect 14 0 12 1;
 #X connect 15 0 11 0;
+#X connect 16 0 17 0;
+#X connect 17 0 3 1;
