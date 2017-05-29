@@ -1,4 +1,4 @@
-#N canvas 529 29 553 626 10;
+#N canvas 526 29 553 626 10;
 #X obj 322 185 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 43 338 r \$1-seq;
@@ -51,7 +51,7 @@
 #A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 16 0 100 30 1 0 0;
 #X restore 419 204 graph;
-#N canvas 278 248 426 376 retrieve-values 0;
+#N canvas 275 224 426 376 retrieve-values 0;
 #X obj 51 194 tabread \$0-step1;
 #X obj 44 146 f;
 #X obj 81 146 + 1;
@@ -65,9 +65,8 @@
 #X obj 51 283 outlet;
 #X obj 44 13 inlet;
 #X obj 44 35 t b a;
-#X obj 7 302 print route\$0;
 #X obj 51 216 * 2;
-#X connect 0 0 14 0;
+#X connect 0 0 13 0;
 #X connect 1 0 2 0;
 #X connect 1 0 7 0;
 #X connect 2 0 1 1;
@@ -80,12 +79,11 @@
 #X connect 7 1 8 1;
 #X connect 8 0 9 0;
 #X connect 8 1 9 1;
-#X connect 9 0 13 0;
 #X connect 9 0 10 0;
 #X connect 11 0 12 0;
 #X connect 12 0 6 0;
 #X connect 12 1 0 0;
-#X connect 14 0 8 0;
+#X connect 13 0 8 0;
 #X restore 55 129 pd retrieve-values;
 #X obj 226 116 print changestep;
 #X obj 55 151 route 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15;
