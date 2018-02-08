@@ -1,4 +1,4 @@
-#N canvas 199 29 914 636 10;
+#N canvas 593 56 761 631 10;
 #X obj 8 62 h.fm~;
 #X text 4 4 Les vues hoclib \, par catégories;
 #X obj 463 58 h.adsr~;
@@ -17,7 +17,7 @@
 #X obj 19 340 h.pitchshifter~;
 #X obj 399 366 h.rev~;
 #X obj 488 324 h.shuffling~;
-#X obj 18 374 h.vcf~;
+#X obj 18 376 h.vcf~;
 #X obj 349 59 h.wave~;
 #X text 16 269 MODIFICATEURS SPECTRAUX;
 #X text 395 305 MODIFICATEURS TEMPORELS;
@@ -53,3 +53,6 @@
 #X obj 267 186 h.play~;
 #X obj 293 691 h.limiter~;
 #X obj 373 182 h.bar~;
+#X text 489 464 TODO : gate;
+#X text 490 477 pitchshifter PV;
+#X text 490 490 Enveloppe follower;
